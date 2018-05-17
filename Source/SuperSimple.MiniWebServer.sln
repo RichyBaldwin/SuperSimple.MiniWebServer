@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimple.MiniWebServer.Host.Console", "SuperSimple.MiniWebServer.Host.Console\SuperSimple.MiniWebServer.Host.Console.csproj", "{CDB140AB-B83E-4990-8EEC-CB81B347B1BC}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimple.MiniWebServer.Test.Acceptance", "SuperSimple.MiniWebServer.Test.Acceptance\SuperSimple.MiniWebServer.Test.Acceptance.csproj", "{03E331A1-2471-4EDD-9FCE-E91CB8E42A50}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimple.MiniWebServer.Test.Unit", "SuperSimple.MiniWebServer.Test.Unit\SuperSimple.MiniWebServer.Test.Unit.csproj", "{2C2F2DEB-D8BE-4A36-952D-DD4D8C3E7972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimple.MiniWebServer.Host.Console.Core", "SuperSimple.MiniWebServer.Host.Console.Core\SuperSimple.MiniWebServer.Host.Console.Core.csproj", "{B7C7B17B-EE6D-41E3-ADA2-623C6E6DF677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimple.MiniWebServer.Core", "SuperSimple.MiniWebServer.Core\SuperSimple.MiniWebServer.Core.csproj", "{F8040AB8-32B2-4975-8739-4F49ED736E03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{2C2F2DEB-D8BE-4A36-952D-DD4D8C3E7972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C2F2DEB-D8BE-4A36-952D-DD4D8C3E7972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C2F2DEB-D8BE-4A36-952D-DD4D8C3E7972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C7B17B-EE6D-41E3-ADA2-623C6E6DF677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C7B17B-EE6D-41E3-ADA2-623C6E6DF677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C7B17B-EE6D-41E3-ADA2-623C6E6DF677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C7B17B-EE6D-41E3-ADA2-623C6E6DF677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8040AB8-32B2-4975-8739-4F49ED736E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8040AB8-32B2-4975-8739-4F49ED736E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8040AB8-32B2-4975-8739-4F49ED736E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8040AB8-32B2-4975-8739-4F49ED736E03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +54,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{03E331A1-2471-4EDD-9FCE-E91CB8E42A50} = {CCEB66DD-09D8-4E0A-8BB6-7C80180904C9}
 		{2C2F2DEB-D8BE-4A36-952D-DD4D8C3E7972} = {CCEB66DD-09D8-4E0A-8BB6-7C80180904C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0FC13AB-4030-464E-B4A2-AFAC92BF3094}
 	EndGlobalSection
 EndGlobal
